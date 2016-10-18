@@ -1,4 +1,2 @@
-class Packet(object):
-    def __init__(self, *args, **kwargs):
-        pass
-
+def Packet(srcname, timestamp, raw_packet):
+        return raw_packet
